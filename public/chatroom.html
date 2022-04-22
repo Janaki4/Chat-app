@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Index</title>
+        <link rel="stylesheet" href="./css/chat.css">
+        <script defer src="/socket.io/socket.io.js"></script>
+        <script defer src="/js/chat.js"></script>
+        <script defer
+            src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+    </head>
+    <body>
+        <div class="main">
+
+            <h1>Chat box</h1>
+            <div class="chatSpace"></div>
+            <form class="msgForm">
+                <input type="text" class="data" required autocomplete="off">
+                <button class="btn">Send</button>
+            </form>
+            <button class="locationBtn">Send Location</button>
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.3/qs.js"></script>
+        </div>
+    </body>
+</html>
